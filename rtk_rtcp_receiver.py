@@ -7,6 +7,7 @@ PORT = 2101              # ポート番号
 RECEIVE_TIMEOUT = 10     # 受信時間（秒）
 BUFFER_SIZE = 4096       # 受信バッファサイズ
 
+
 def main():
     print(f"[INFO] {HOST}:{PORT} に接続します")
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
